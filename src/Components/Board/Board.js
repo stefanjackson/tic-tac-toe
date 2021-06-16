@@ -1,4 +1,5 @@
 import React from "react";
+import './Board.css';
 
 class Board extends React.Component {
 
@@ -17,7 +18,7 @@ class Board extends React.Component {
 			this.play(tile);
 		};
 
-		let allTiles =  document.getElementByClassName("not-played");
+		let allTiles =  document.getElementsByClassName("not-played");
 		if (allTiles.length < 1) {
 			handleScore("ties");
 			endgame(true);
@@ -145,7 +146,7 @@ class Board extends React.Component {
 	};
 
 	reset = () => {
-		let allTiles = document.getElementByClassName("tile");
+		let allTiles = document.getElementsByClassName("tile");
 		for (let i = 0; i < allTiles.length; i++) {
 			allTiles[i].innerHTML = "";
 			allTiles[i].classList.add("not-played");

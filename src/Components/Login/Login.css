@@ -31,11 +31,6 @@ p {
 	line-height: 2;
 }
 
-h1 {
-	font-size: 1.7em !important;
-	border-bottom: 1px solid black;
-}
-
 button {
 	min-width: 100px;
 	min-height: 50px;
