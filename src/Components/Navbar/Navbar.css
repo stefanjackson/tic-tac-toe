@@ -1,0 +1,8 @@
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-height: 30vh;
+	background-color: rgba(218, 165, 32, 0.6);
+}
+

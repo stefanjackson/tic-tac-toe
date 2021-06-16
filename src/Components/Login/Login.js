@@ -7,7 +7,7 @@ class Login extends React.Component {
 	state = {
 		player1: "",
 		player2: "",
-	}
+	};
 
 	handleChange = (event) => {
 
@@ -15,7 +15,7 @@ class Login extends React.Component {
 
 		let player = event.target.id;
 		this.setState({[player]: event.target.value});
-	}
+	};
 
 	handleClick = (event) => {
 
@@ -23,7 +23,7 @@ class Login extends React.Component {
 
 		const {player1, player2} = this.state;
 		this.props.names(player1, player2);
-	}
+	};
 
 	render() {
 		return (

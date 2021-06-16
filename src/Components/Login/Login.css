@@ -23,7 +23,8 @@
 
 label, 
 button, 
-h1, 
+h1,
+h2, 
 p {
 	font-family: 'Anton', sans-serif;
 	font-size: 1.4em !important;

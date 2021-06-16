@@ -1,4 +1,5 @@
 import React from "react";
+import './Endgame.css';
 
 class Endgame extends React.Component {
 
