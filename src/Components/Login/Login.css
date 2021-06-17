@@ -10,6 +10,8 @@
 
 .screen {
 	padding: 15px;
+	position: fixed;
+	top: 33vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
