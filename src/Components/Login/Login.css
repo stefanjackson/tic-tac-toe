@@ -11,7 +11,7 @@
 .screen {
 	padding: 15px;
 	position: fixed;
-	top: 33vh;
+	top: 32vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
