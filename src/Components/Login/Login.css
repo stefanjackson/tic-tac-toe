@@ -34,10 +34,11 @@ p {
 }
 
 button {
+	background-color: rgba(218, 165, 32, 0.6);
 	min-width: 100px;
 	min-height: 50px;
 }
 
 button:hover {
-	border: 3px solid goldenrod;
+	background-color: goldenrod;
 }
