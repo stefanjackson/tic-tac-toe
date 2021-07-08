@@ -10,8 +10,8 @@ class App extends React.Component {
   
 	state = {
 		ties: 0, 
-		userName1: "Player1", 
-		userName2: "Player2", 
+		userName1: "Player 1", 
+		userName2: "Player 2", 
 		winner: "", 
 		player1: 0, 
 		player2: 0, 
